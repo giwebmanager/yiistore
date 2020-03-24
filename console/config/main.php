@@ -31,5 +31,7 @@ return [
             ],
         ],
     ],
+    'siteUrlManager' => include __DIR__ . '../../frontend/config/urlmanager.php',
+    'adminUrlManager' => include __DIR__ . '../../backend/config/urlmanager.php',
     'params' => $params,
 ];
